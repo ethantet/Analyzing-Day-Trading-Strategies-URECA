@@ -1,0 +1,46 @@
+__pycache__/
+*.pyc
+
+# market data (not part of the repo)
+*.txt
+!requirements.txt
+*.zip
+*.csv
+
+# generated output
+*.png
+*.html
+
+# per-instrument result folders
+BTC/
+CL/
+ES/
+EURUSD/
+FDAX/
+FGBL/
+GC/
+NG/
+NKD/
+NQ/
+USDJPY/
+VX/
+YM/
+ZN/
+
+# recovery-process leftovers, not part of the final architecture
+/1.py
+/2.py
+/3.py
+/4.py
+/5.py
+/6.py
+/7.py
+/8.py
+/9.py
+/10.py
+/Main Backtester.py
+/MTF Backtester.py
+/Interactive MTF Backtester.py
+/Weighted Confluence Checker.py
+/SQ60 + ORB Strategy Main Function.py
+/SQ60 Backtesting Implementation.py
